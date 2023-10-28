@@ -34,7 +34,7 @@ with col2:
 
 # movies = pickle.load(open('movie_list.pkl','rb'))
 with open('movie_list.pkl', 'rb') as file:
-    movies = joblib.load(file)
+    movies = pickle.load(file)
 
 # similarity = pickle.load(open('similarity.pkl','rb'))
 
