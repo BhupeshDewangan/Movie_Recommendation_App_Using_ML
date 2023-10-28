@@ -31,7 +31,9 @@ with col2:
     )
 
 
-movies = pickle.load(open('movie_list.pkl','rb'))
+# movies = pickle.load(open('movie_list.pkl','rb'))
+with open('movie_list.pkl', 'rb') as file:
+    movies = pickle.load(file)
 # similarity = pickle.load(open('similarity.pkl','rb'))
 
 
