@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 import zipfile
 import json
+import joblib
 from streamlit_lottie import st_lottie 
 
 
@@ -33,7 +34,8 @@ with col2:
 
 # movies = pickle.load(open('movie_list.pkl','rb'))
 with open('movie_list.pkl', 'rb') as file:
-    movies = pickle.load(file)
+    movies = joblib.load(file)
+
 # similarity = pickle.load(open('similarity.pkl','rb'))
 
 
