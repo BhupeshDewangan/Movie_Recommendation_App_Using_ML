@@ -4,7 +4,6 @@ import pandas as pd
 import requests
 import zipfile
 import json
-import joblib
 from streamlit_lottie import st_lottie 
 
 
