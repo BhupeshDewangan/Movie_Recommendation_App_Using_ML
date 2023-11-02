@@ -2,6 +2,8 @@
 
 This is a Movie Recommendation web application that utilizes Machine Learning techniques to suggest movies based on user preferences. The app provides two main features: Movie Recommendations 🍿 and Director Recommendations 👤.
 
+Linkedin Post and Video - https://www.linkedin.com/posts/bhupesh-dewangan-7121851ba_machinelearning-streamlit-movies-activity-7125562356327231489-gKuy?utm_source=share&utm_medium=member_desktop
+
 ## Features
 
 - **Movie Recommendations 🎥**: Get movie recommendations based on your preferences and user ratings. The app uses machine learning models, particularly `scikit-learn`'s CountVectorizer and cosine similarity to generate personalized movie recommendations.
